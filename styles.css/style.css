@@ -5,3 +5,29 @@
 #carouselExampleCaptions img{
     height: 600px;
 }
+div.section-title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+}
+.cards{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cards .card{
+    display: flex;
+    flex-direction: row;
+}
+.cards .card .card-img-top{
+    width: 300px;
+    height: 300px;
+}
+.cards .card .card-body p{
+    font-size: 24px;
+}
+.btn{
+    padding: 20px;
+    font-size: 20px;
+}
